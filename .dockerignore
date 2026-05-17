@@ -1,0 +1,10 @@
+# Docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+
+# Add to existing .gitignore if needed
+/node_modules
+/dist
+.env
+*.log
