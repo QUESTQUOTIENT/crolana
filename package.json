@@ -1,10 +1,5 @@
 {
   "name": "crolana",
-  "version": "1.0.0",
-  "description": "Multi-chain NFT + DeFi Launchpad",
-  "scripts": {
-    "dev": "tsx server.ts",
-    "build": "npm run build:packages && prisma generate && vite build",
-    "contracts:compile": "hardhat compile"
-  }
+  "version": "1.2.0",
+  "scripts": { ... updated with more commands }
 }
