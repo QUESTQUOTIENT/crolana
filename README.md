@@ -1,61 +1,30 @@
 # Crolana
 
-**Crolana** is a multiflatform NFT + DeFi Launchpad supporting **Cronos** (primary) and **Solana** networks.
+**Crolana** is a full-stack, multi-platform NFT + DeFi Launchpad for **Cronos** (primary) and **Solana**.
 
 ## Features
-- Full NFT Launchpad with phases, allowlists (Merkle trees)
-- Token launcher & Liquidity tools
-- Cross-chain support (Cronos EVM + Solana)
-- Mobile-ready with Capacitor (Android)
-- Real-time listeners & analytics indexer
-- AI-powered metadata tools
-
-## Tech Stack
-- **Frontend**: React 19 + Vite + Tailwind + Zustand
-- **Backend**: Express + TypeScript + Prisma
-- **Blockchain**: Ethers + @solana/web3.js + Metaplex
-- **Mobile**: Capacitor
-- **Database**: PostgreSQL + Redis
+- NFT Launchpad with phases, Merkle allowlists, reveal
+- Token launcher with taxes & governance
+- Liquidity & Swap tools
+- Cross-chain wallet & minting
+- AI metadata generator
+- Mobile app (Capacitor Android)
+- Real-time analytics & listeners
 
 ## Quick Start
 
-1. Clone the repo
 ```bash
 git clone https://github.com/QUESTQUOTIENT/Crolana.git
 cd Crolana
-```
-
-2. Install dependencies
-```bash
-npm install
-```
-
-3. Setup environment
-```bash
 cp .env.example .env
-# Fill in your values (RPCs, DB, etc.)
-```
-
-4. Run development
-```bash
+npm install
 npm run dev
-# or separately:
-npm run dev:frontend
-npm run dev
-npm run dev:listener
 ```
 
-## Project Structure
-```
-├── packages/          # Engines (nft, token, liquidity, etc.)
-├── services/          # Background services
-├── src/               # Backend
-├── frontend/          # React app
-├── prisma/            # Schema & migrations
-└── mobile/            # Capacitor config
-```
-
-## Contributing
-Pull requests welcome! See issues for roadmap.
+## Tech Stack
+- Frontend: React 19 + Vite + Tailwind + Zustand + TanStack Query
+- Backend: Express + TS + Prisma + Zod
+- Blockchain: Hardhat + ERC721A + Metaplex
+- Infra: Docker, Redis, Sentry
 
 Built with ❤️ for Cronos & Solana communities.
