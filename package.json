@@ -1,5 +1,10 @@
 {
   "name": "crolana",
-  "version": "1.2.0",
-  "scripts": { ... updated with more commands }
+  "version": "1.4.0",
+  "description": "Multi-platform NFT + DeFi Launchpad for Cronos and Solana",
+  "scripts": {
+    "dev": "tsx server.ts",
+    "dev:frontend": "vite",
+    "contracts:compile": "hardhat compile"
+  }
 }
